@@ -80,6 +80,22 @@ Worth doing: OCF ties group accounts to your registered LEAD Center signatories,
 which already rotate every year — so the domain hands over on the same schedule
 as your officers, with no action from you.
 
+### 6. The site is currently hidden from search engines
+
+Until it's ready, every page carries `noindex, nofollow, noarchive, nosnippet`
+plus AI opt-out tags, and `docs/robots.txt` disallows all crawlers including
+the LLM ones (GPTBot, ClaudeBot, Google-Extended, CCBot and friends).
+
+One catch worth understanding: **robots.txt only counts at a domain root.**
+While the site lives at `stan-hua.github.io/cph_gsa_website/`, crawlers read
+`https://stan-hua.github.io/robots.txt` — which belongs to a different
+repository — so `docs/robots.txt` does nothing yet. The meta tags in
+`overrides/main.html` are what actually applies today. `docs/robots.txt`
+starts working the moment the site moves to its own domain.
+
+**To launch:** delete `docs/robots.txt` and the marked noindex block in
+`overrides/main.html`. Nothing else references them.
+
 ---
 
 ## Everyday use

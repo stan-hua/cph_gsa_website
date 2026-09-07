@@ -8,4 +8,23 @@
   <link rel="apple-touch-icon" href="{{ 'assets/images/apple-touch-icon-180.png' | url }}">
   <link rel="icon" type="image/png" sizes="128x128" href="{{ 'assets/images/favicon-32.png' | url }}">
   <link rel="icon" type="image/png" sizes="2048x2048" href="{{ 'assets/images/favicon-512.png' | url }}">
+
+  {#- ------------------------------------------------------------------
+      KEEP OUT, FOR NOW. Delete this block (and docs/robots.txt) to launch.
+
+      The site is still being written, and the repo is public, so anything
+      published here is fair game for crawlers. This is the part that
+      actually works at the current URL: robots.txt is only read at a
+      domain root, and stan-hua.github.io/robots.txt belongs to a different
+      repo, so docs/robots.txt is inert until the site moves to
+      cohere.studentorg.berkeley.edu.
+
+      noindex/nofollow are honoured by every major search engine.
+      noai/noimageai are a convention some scrapers respect and many
+      ignore — they cost nothing and are not a guarantee.
+      ------------------------------------------------------------------ -#}
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
+  <meta name="noai" content="noai">
+  <meta name="noimageai" content="noimageai">
 {% endblock %}
