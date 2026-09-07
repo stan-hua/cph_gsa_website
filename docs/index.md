@@ -4,7 +4,12 @@ hide:
   - toc
 ---
 
-# Berkeley–UCSF GSA
+<div class="cohere-hero" markdown>
+![CoHeRe — Computational Health Researchers](assets/images/brand/cohere-lockup.svg#only-light)
+![CoHeRe — Computational Health Researchers](assets/images/brand/cohere-lockup-on-dark.svg#only-dark)
+</div>
+
+# The Berkeley–UCSF GSA handbook
 
 The student-run handbook for our joint PhD program — everything we wish someone
 had told us in year one, kept current by the people living it now.

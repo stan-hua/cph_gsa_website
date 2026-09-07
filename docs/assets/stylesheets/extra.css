@@ -1,5 +1,5 @@
 /* ===========================================================================
-   Berkeley–UCSF GSA — "Notion + quiet wiki" theme
+   CoHeRe (Berkeley–UCSF GSA) — "Notion + quiet wiki" theme
    Black text, white page, one restrained blue for links, a slim toggle-able
    left sidebar. Nearly everything you'd want to change lives in :root below.
    =========================================================================== */
@@ -94,6 +94,11 @@ body, .md-typeset, input, .md-nav {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1.4rem;
+  /* `margin: auto` collapses to 0 once the column is wider than the viewport,
+     which put text flush against the screen edge on phones. Material's own
+     .8rem gutter has to come back as padding. */
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 /* Kill the empty pencil-spacer line Material adds above H1. */
 .md-content__inner::before {
@@ -226,4 +231,103 @@ body, .md-typeset, input, .md-nav {
   body.gsa-nav-collapsed .md-sidebar--primary {
     display: none;
   }
+}
+
+/* ===========================================================================
+   COHERE BRANDING
+   The wordmark is three syllables, each its own colour and its own meaning:
+   Co(mputation) · He(alth) · Re(searchers). See BRAND.md.
+
+   Material renders the site name as a single text node, so there is nowhere
+   to hang three colours. Instead we zero that text out and rebuild it from
+   three pseudo-elements — two on the inner span, one on its parent. It stays
+   real, selectable, resizable text, and screen readers still read the site
+   name from the DOM. Change a colour here and it changes everywhere.
+   =========================================================================== */
+
+:root {
+  --cohere-co:   #003262;  /* Berkeley Blue  — Computation */
+  --cohere-he:   #18a3ac;  /* UCSF Teal      — Health      */
+  --cohere-re:   #a87900;  /* Deep gold      — Researchers */
+  --cohere-rule: #fdb515;  /* California Gold             */
+}
+
+/* On black, the blue and the gold both need lifting to stay vivid. */
+[data-md-color-scheme="slate"] {
+  --cohere-co: #3b7ea1;
+  --cohere-re: #fdb515;
+}
+
+/* Hide the site-name text node without collapsing the line box. */
+.md-header__topic:first-child .md-ellipsis {
+  font-size: 0;
+}
+
+.md-header__topic:first-child .md-ellipsis::before,
+.md-header__topic:first-child .md-ellipsis::after,
+.md-header__topic:first-child::after {
+  font-size: 0.9rem;      /* Material's own header-title size */
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.md-header__topic:first-child .md-ellipsis::before {
+  content: "Co";
+  color: var(--cohere-co);
+}
+
+.md-header__topic:first-child .md-ellipsis::after {
+  content: "He";
+  color: var(--cohere-he);
+}
+
+/* "Re" hangs off the parent: .md-header__topic is a flex row, so it lands
+   immediately after the span rather than inside its overflow clip. */
+.md-header__topic:first-child::after {
+  content: "Re";
+  color: var(--cohere-re);
+}
+
+/* ---- Mobile drawer ------------------------------------------------------
+   The drawer title is a <label> with a bare text node and an absolutely
+   positioned logo, so there is no room for the three-pseudo trick. Swap the
+   text for the wordmark SVG, which carries the same colours. */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+    font-size: 0;
+    background-image: url("../images/brand/cohere-wordmark.svg");
+    background-repeat: no-repeat;
+    background-position: 0.8rem 3.05rem;
+    background-size: auto 1.05rem;
+  }
+  [data-md-color-scheme="slate"] .md-nav__title[for="__drawer"] {
+    background-image: url("../images/brand/cohere-wordmark-on-dark.svg");
+  }
+}
+
+/* ---- Homepage hero lockup -----------------------------------------------
+   Material's `.md-typeset img` sets max-width:100%, so the width has to be
+   pinned on a selector at least as specific. */
+.md-typeset .cohere-hero {
+  margin: 0 0 1.5rem;
+}
+
+.md-typeset .cohere-hero p {
+  margin: 0;
+  line-height: 0;   /* no descender gap under the image */
+}
+
+.md-typeset .cohere-hero img {
+  width: 100%;
+  max-width: 21rem;
+  height: auto;
+}
+
+/* The h1 under the lockup is a subtitle, not a second logo. */
+.md-typeset .cohere-hero + h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--md-default-fg-color);
+  margin-top: 0;
 }

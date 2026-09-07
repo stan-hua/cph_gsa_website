@@ -6,7 +6,7 @@ this site.
 
 <div class="gsa-calendar">
   <iframe
-    title="Berkeley–UCSF GSA calendar"
+    title="CoHeRe calendar"
     src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America%2FLos_Angeles&mode=MONTH&showTitle=0&showPrint=0&showTabs=1&showCalendars=0"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade">

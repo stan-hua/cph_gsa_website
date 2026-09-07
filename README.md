@@ -1,4 +1,4 @@
-# Berkeley–UCSF GSA website
+# CoHeRe website
 
 The graduate student association's handbook and wiki, built with
 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published
@@ -49,7 +49,7 @@ Search the repository for `YOUR-ORG` and for `todo` and work through them.
 The five lines at the top of `mkdocs.yml` are the ones that matter most:
 
 ```yaml
-site_name:  Berkeley–UCSF GSA
+site_name:  CoHeRe
 site_url:   https://YOUR-ORG.github.io/gsa-site/
 repo_url:   https://github.com/YOUR-ORG/gsa-site
 repo_name:  YOUR-ORG/gsa-site

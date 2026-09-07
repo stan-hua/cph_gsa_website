@@ -1,8 +1,9 @@
 # =============================================================================
 #  EDIT THESE FIVE LINES FIRST — everything else can stay as-is.
 # =============================================================================
-site_name: Berkeley–UCSF GSA
-site_description: The graduate student association handbook and wiki for the joint UC Berkeley – UCSF PhD program.
+site_name: CoHeRe
+site_description: CoHeRe (Computational Health Researchers) — the graduate student
+  association handbook and wiki for the joint UC Berkeley – UCSF PhD program.
 site_url: https://YOUR-ORG.github.io/gsa-site/
 repo_url: https://github.com/YOUR-ORG/gsa-site
 repo_name: YOUR-ORG/gsa-site
@@ -13,12 +14,14 @@ repo_name: YOUR-ORG/gsa-site
 edit_uri: edit/main/docs/
 
 copyright: >
-  Maintained by the Berkeley–UCSF GSA.
+  Maintained by CoHeRe, the Berkeley–UCSF GSA.
 
 theme:
   name: material
   language: en
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon.svg
+  # Square "C" tile. Material sizes it to 1.2rem in the header.
+  logo: assets/images/brand/cohere-mark.svg
   # Use the system font (what Notion does) instead of loading a web font.
   font: false
   icon:
