@@ -1,0 +1,9 @@
+# Pinned so a build in 2029 produces the same site as a build today.
+# To upgrade: bump the versions, run `mkdocs build --strict` locally, commit.
+mkdocs==1.6.1
+mkdocs-material==9.7.6
+
+# Note: the Material for MkDocs team has flagged that upstream MkDocs 2.0 plans
+# backward-incompatible changes. Because these versions are pinned, this site
+# keeps building exactly as it does today regardless. Revisit the pins only
+# deliberately, and run `mkdocs build --strict` before committing a bump.

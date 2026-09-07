@@ -1,0 +1,130 @@
+# =============================================================================
+#  EDIT THESE FIVE LINES FIRST — everything else can stay as-is.
+# =============================================================================
+site_name: Berkeley–UCSF GSA
+site_description: The graduate student association handbook and wiki for the joint UC Berkeley – UCSF PhD program.
+site_url: https://YOUR-ORG.github.io/gsa-site/
+repo_url: https://github.com/YOUR-ORG/gsa-site
+repo_name: YOUR-ORG/gsa-site
+# =============================================================================
+
+# Puts an "Edit this page" pencil on every page, linking straight to the
+# GitHub web editor. This is how most people will make small fixes.
+edit_uri: edit/main/docs/
+
+copyright: >
+  Maintained by the Berkeley–UCSF GSA.
+
+theme:
+  name: material
+  language: en
+  favicon: assets/images/favicon.png
+  # Use the system font (what Notion does) instead of loading a web font.
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  features:
+    - navigation.sections     # top-level groups shown as headers in the sidebar
+    - navigation.indexes      # section landing pages
+    - navigation.top          # back-to-top button
+    - toc.integrate           # page headings fold into the one left sidebar
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.tooltips
+    - content.code.copy
+  palette:
+    # Light: white header, black text. No brand colour anywhere.
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark: black header, off-white text.
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/sidebar-toggle.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR-ORG
+    - icon: fontawesome/solid/envelope
+      link: mailto:gsa@example.berkeley.edu
+  generator: false
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# -----------------------------------------------------------------------------
+#  NAVIGATION  (this is the left sidebar)
+#  Add a page by creating the .md file, then adding one line here.
+#  Delete a line here and the page disappears from the menu.
+# -----------------------------------------------------------------------------
+nav:
+  - Home: index.md
+
+  - Start Here:
+      - new-students/index.md
+      - Before you arrive: new-students/before-you-arrive.md
+      - Your first semester: new-students/first-semester.md
+      - Finding housing: new-students/housing.md
+      - Working across two campuses: new-students/two-campuses.md
+
+  - Academics:
+      - Curriculum and requirements: academics/curriculum.md
+      - Qualifying exam: academics/quals.md
+      - Choosing an advisor and lab: academics/advisors.md
+      - Funding, fellowships and travel: academics/funding.md
+
+  - Student Life:
+      - Health and wellness: life/wellness.md
+      - Social events and clubs: life/social.md
+      - Living in the Bay Area: life/bay-area.md
+
+  - The GSA:
+      - About the GSA: about/index.md
+      - Current officers: about/officers.md
+      - Meetings and minutes: about/meetings.md
+      - Bylaws: about/bylaws.md
+      - Events: events/index.md
+      - Calendar: events/calendar.md
+
+  - Resources:
+      - Forms and links: resources/forms-and-links.md
+      - FAQ: resources/faq.md
+      - Edit this site: resources/editing.md
