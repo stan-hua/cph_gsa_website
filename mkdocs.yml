@@ -20,8 +20,14 @@ theme:
   name: material
   language: en
   favicon: assets/images/favicon.svg
-  # Square "C" tile. Material sizes it to 1.2rem in the header.
-  logo: assets/images/brand/cohere-mark.svg
+  # Stacked CoHeRe tile — same artwork as the favicon. extra.css hides it in
+  # the chrome (it spells "CoHeRe", same as the wordmark next to it), but it
+  # stays configured: Material's logo anchor is the home link the wordmark
+  # borrows, and this keeps the right artwork here if it's ever shown again.
+  logo: assets/images/favicon.svg
+  # Only for overrides/main.html, which adds the apple-touch-icon and the PNG
+  # favicon fallbacks. Nothing else is overridden.
+  custom_dir: overrides
   # Use the system font (what Notion does) instead of loading a web font.
   font: false
   icon:
@@ -60,6 +66,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/sidebar-toggle.js
+  - assets/javascripts/header-home-link.js
 
 extra:
   social:

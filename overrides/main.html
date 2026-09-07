@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{#- Material emits a single <link rel="icon"> for theme.favicon, which covers
+    the browser tab. These add the rest of the icon set in docs/assets/images:
+    the iOS home-screen icon, and PNG fallbacks for anything that won't take
+    an SVG favicon. `sizes` states each file's true pixel dimensions. -#}
+{% block extrahead %}
+  <link rel="apple-touch-icon" href="{{ 'assets/images/apple-touch-icon-180.png' | url }}">
+  <link rel="icon" type="image/png" sizes="128x128" href="{{ 'assets/images/favicon-32.png' | url }}">
+  <link rel="icon" type="image/png" sizes="2048x2048" href="{{ 'assets/images/favicon-512.png' | url }}">
+{% endblock %}

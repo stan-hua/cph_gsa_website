@@ -33,14 +33,16 @@ California Gold `#FDB515` so both stay vivid.
 | `docs/assets/images/brand/cohere-lockup-on-dark.svg` | The same for dark backgrounds. |
 | `docs/assets/images/brand/cohere-wordmark.svg` | The wordmark alone, no tagline. |
 | `docs/assets/images/brand/cohere-wordmark-on-dark.svg` | Wordmark alone, dark backgrounds. |
-| `docs/assets/images/brand/cohere-mark.svg` | Square "C" mark — Berkeley-blue tile, white C — for avatars and the favicon. |
+| `docs/assets/images/brand/cohere-square.svg` | Square stacked mark — Co/He/Re on white, for light backgrounds and avatars. |
+| `docs/assets/images/favicon.svg` | The same square on a Berkeley-blue tile — the favicon and app icon. |
 
 The same folder mirrors these as high-resolution PNGs (on-dark files have the dark
 background baked in). `docs/assets/images/` holds the browser-tab and phone icons.
 
-The site uses `cohere-mark.svg` as the header logo and renders the **CoHeRe**
-wordmark as live tri-coloured text — see the brand block at the top of
-`docs/assets/stylesheets/extra.css` if you need to adjust it.
+In the site chrome the wordmark alone identifies the site — rendered as live
+tri-coloured text, and clickable as the link home. The square tile is the
+favicon and app icon only; showing it beside the wordmark would spell "CoHeRe"
+twice. See the brand block near the end of `docs/assets/stylesheets/extra.css`.
 
 ## Type
 

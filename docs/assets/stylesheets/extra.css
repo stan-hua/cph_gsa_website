@@ -258,6 +258,14 @@ body, .md-typeset, input, .md-nav {
   --cohere-re: #fdb515;
 }
 
+/* The tile spells "CoHeRe" too, so showing it next to the wordmark says the
+   same thing twice. The wordmark identifies the site everywhere in the chrome;
+   the tile is the favicon and app icon, where a square mark belongs. */
+.md-header__button.md-logo,
+.md-nav--primary .md-nav__title .md-logo {
+  display: none;
+}
+
 /* Hide the site-name text node without collapsing the line box. */
 .md-header__topic:first-child .md-ellipsis {
   font-size: 0;
@@ -265,7 +273,8 @@ body, .md-typeset, input, .md-nav {
 
 .md-header__topic:first-child .md-ellipsis::before,
 .md-header__topic:first-child .md-ellipsis::after,
-.md-header__topic:first-child::after {
+.md-header__topic:first-child::after,
+.gsa-home-link::after {
   font-size: 0.9rem;      /* Material's own header-title size */
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -288,6 +297,24 @@ body, .md-typeset, input, .md-nav {
   color: var(--cohere-re);
 }
 
+/* header-home-link.js turns the wordmark into the link home (the logo used to
+   carry that, and it's hidden now). It adds .gsa-linked, which moves "Re"
+   inside the link so the whole word is clickable, not just "CoHe". Without
+   JavaScript the rule above still paints "Re" — it just isn't a link. */
+.md-header__topic:first-child.gsa-linked::after {
+  content: none;
+}
+
+.gsa-home-link {
+  display: flex;
+  color: inherit;
+}
+
+.gsa-home-link::after {
+  content: "Re";
+  color: var(--cohere-re);
+}
+
 /* ---- Mobile drawer ------------------------------------------------------
    The drawer title is a <label> with a bare text node and an absolutely
    positioned logo, so there is no room for the three-pseudo trick. Swap the
@@ -297,7 +324,7 @@ body, .md-typeset, input, .md-nav {
     font-size: 0;
     background-image: url("../images/brand/cohere-wordmark.svg");
     background-repeat: no-repeat;
-    background-position: 0.8rem 3.05rem;
+    background-position: 0.8rem center;
     background-size: auto 1.05rem;
   }
   [data-md-color-scheme="slate"] .md-nav__title[for="__drawer"] {
