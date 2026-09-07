@@ -14,7 +14,7 @@ repo_name: YOUR-ORG/gsa-site
 edit_uri: edit/main/docs/
 
 copyright: >
-  Maintained by CoHeRe, the Berkeley–UCSF GSA.
+  Maintained by CoHeRe, the UC Berkeley & UCSF CPH GSA.
 
 theme:
   name: material

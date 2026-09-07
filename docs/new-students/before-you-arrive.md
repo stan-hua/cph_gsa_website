@@ -7,8 +7,8 @@ saves a genuinely stressful first week.
 
 You will end up with two identities. Set both up before you need them.
 
-- **Berkeley CalNet ID** — gates bCourses, campus wifi, library access, and most
-  Berkeley forms.
+- **UC Berkeley CalNet ID** — gates bCourses, campus wifi, library access, and most
+  UC Berkeley forms.
 - **UCSF MyAccess** — gates UCSF email, APeX training if your work touches clinical
   data, and UCSF library resources.
 

@@ -2,7 +2,7 @@
 
 ## What we do
 
-The Graduate Student Association represents students in the joint Berkeley–UCSF
+The Graduate Student Association represents students in the joint UC Berkeley–UCSF
 PhD program to both campuses' administrations, runs the program's social and
 professional events, and maintains this site.
 

@@ -6,7 +6,7 @@ week one."
 
 ## The short version
 
-A joint Berkeley–UCSF PhD means two of everything: two student IDs, two email
+A joint UC Berkeley–UCSF PhD means two of everything: two student IDs, two email
 addresses, two library systems, two health plans to understand, two campuses to
 get between. Nobody hands you a single checklist that covers both. This site is
 our attempt at that checklist.
@@ -38,8 +38,8 @@ our attempt at that checklist.
 
 !!! warning "Deadlines differ between campuses"
 
-    Berkeley and UCSF run on different academic calendars and different
-    administrative deadlines. A deadline you hear about in a Berkeley meeting
+    UC Berkeley and UCSF run on different academic calendars and different
+    administrative deadlines. A deadline you hear about in a UC Berkeley meeting
     may not be the UCSF one. When in doubt, check both, and check the
     [forms and links](../resources/forms-and-links.md) page.
 

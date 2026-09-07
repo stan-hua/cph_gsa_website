@@ -9,7 +9,7 @@ hide:
 ![CoHeRe — Computational Health Researchers](assets/images/brand/cohere-lockup-on-dark.svg#only-dark)
 </div>
 
-# The Berkeley–UCSF GSA handbook
+# The UC Berkeley & UCSF CPH GSA handbook
 
 The student-run handbook for our joint PhD program — everything we wish someone
 had told us in year one, kept current by the people living it now.
@@ -33,8 +33,8 @@ had told us in year one, kept current by the people living it now.
 Two things live here, and keeping them apart keeps the site useful.
 
 The **handbook** holds knowledge that outlives any one cohort: how quals actually
-work, what to ask a prospective advisor, which forms UCSF wants and which Berkeley
-wants. Write these pages for a student three years from now.
+work, what to ask a prospective advisor, which forms UCSF wants and which
+UC Berkeley wants. Write these pages for a student three years from now.
 
 The **GSA pages** hold what's true this year: officers, meeting minutes, upcoming
 events, the current budget. These go stale on purpose and get refreshed each fall.

@@ -3,7 +3,7 @@
 Every system either campus will make you use, in one place. If you hunt for
 something and eventually find it, add it here so the next person doesn't have to.
 
-## Berkeley
+## UC Berkeley
 
 | What | Link |
 |---|---|
@@ -34,7 +34,7 @@ something and eventually find it, add it here so the next person doesn't have to
 
 ## Support and reporting
 
-| What | Berkeley | UCSF |
+| What | UC Berkeley | UCSF |
 |---|---|---|
 | Ombuds office | <span class="todo">link</span> | <span class="todo">link</span> |
 | Title IX / harassment reporting | <span class="todo">link</span> | <span class="todo">link</span> |

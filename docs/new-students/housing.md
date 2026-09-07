@@ -14,9 +14,9 @@ in this program end up choosing based on where their lab is, and moving once.
 
 | Area | Rough 1BR rent | Commute notes |
 |---|---|---|
-| Berkeley (Southside, Northside) | <span class="todo">$—</span> | Walk to Berkeley campus; ~60–75 min to UCSF Parnassus |
+| Berkeley (Southside, Northside) | <span class="todo">$—</span> | Walk to UC Berkeley campus; ~60–75 min to UCSF Parnassus |
 | Oakland (Rockridge, Temescal) | <span class="todo">$—</span> | BART to both; cheaper, more space |
-| SF (Inner Sunset, Cole Valley) | <span class="todo">$—</span> | Walk to Parnassus; ~70 min to Berkeley |
+| SF (Inner Sunset, Cole Valley) | <span class="todo">$—</span> | Walk to Parnassus; ~70 min to UC Berkeley |
 | SF (Mission Bay area) | <span class="todo">$—</span> | Near UCSF Mission Bay; expensive |
 
 <p class="todo">Update the rent column each spring — it's the number incoming

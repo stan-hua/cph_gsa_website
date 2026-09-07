@@ -10,7 +10,7 @@ waiver process is if you have other coverage, and the deadline to waive.</p>
 
 ## Where to get care
 
-| Need | Berkeley | UCSF |
+| Need | UC Berkeley | UCSF |
 |---|---|---|
 | Primary care | University Health Services, Tang Center | UCSF Student Health |
 | Urgent care | Tang Center urgent care | UCSF Student Health |

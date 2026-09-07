@@ -53,5 +53,5 @@ live text, use Poppins Bold and colour Co `#003262`, He `#18A3AC`, Re `#A87900`.
 Keep clear space around the logo at least the height of the "o". Don't stretch it,
 change the font, recolour the syllables, or add effects — start from these files if
 you need a change. It stays legible to about 90px wide; the square mark holds to
-16px. It uses the official Berkeley and UCSF colours, so keep it distinct from the
+16px. It uses the official UC Berkeley and UCSF colours, so keep it distinct from the
 universities' own logos rather than presenting it as one.

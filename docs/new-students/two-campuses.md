@@ -7,8 +7,8 @@ times, and what a monthly transit pass costs after any student subsidy.</p>
 
 | Route | Typical time | Notes |
 |---|---|---|
-| Berkeley campus → UCSF Parnassus | ~70 min | BART to Montgomery, then Muni |
-| Berkeley campus → UCSF Mission Bay | ~60 min | BART to Embarcadero, then Muni T |
+| UC Berkeley campus → UCSF Parnassus | ~70 min | BART to Montgomery, then Muni |
+| UC Berkeley campus → UCSF Mission Bay | ~60 min | BART to Embarcadero, then Muni T |
 | Between UCSF campuses | ~20 min | UCSF shuttle, free with ID |
 
 ## Two of everything
@@ -16,7 +16,7 @@ times, and what a monthly transit pass costs after any student subsidy.</p>
 - **Two library systems.** Both give you access; the catalogs are separate. If a
   paper is paywalled at one, try the other before paying.
 - **Two IT helpdesks.** They cannot help you with the other campus's systems.
-- **Two calendars.** Berkeley and UCSF terms don't line up. Check both before
+- **Two calendars.** UC Berkeley and UCSF terms don't line up. Check both before
   booking travel.
 - **Two card systems.** Building access has to be requested separately at each.
 

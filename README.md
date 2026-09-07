@@ -16,7 +16,7 @@ Do this once, when you first stand the site up. It takes about twenty minutes.
 
 This is the part that makes the site survive. Go to
 <https://github.com/organizations/plan> and create a free organization — call it
-something like `berkeley-ucsf-gsa`.
+something like `uc-berkeley-ucsf-cph-gsa`.
 
 An organization owns itself. Officers are added and removed as owners each year,
 and nobody's personal account is ever the single point of failure. A repo on a
