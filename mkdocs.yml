@@ -4,9 +4,12 @@
 site_name: CoHeRe
 site_description: CoHeRe (Computational Health Researchers) — the graduate student
   association handbook and wiki for the joint UC Berkeley – UCSF PhD program.
-site_url: https://YOUR-ORG.github.io/gsa-site/
-repo_url: https://github.com/YOUR-ORG/gsa-site
-repo_name: YOUR-ORG/gsa-site
+# GitHub Pages for now. When the OCF subdomain is live, this becomes
+# https://cohere.studentorg.berkeley.edu/ — see "Moving to the real
+# domain" in README.md for the two other things that change with it.
+site_url: https://stan-hua.github.io/cph_gsa_website/
+repo_url: https://github.com/stan-hua/cph_gsa_website
+repo_name: stan-hua/cph_gsa_website
 # =============================================================================
 
 # Puts an "Edit this page" pencil on every page, linking straight to the
@@ -71,7 +74,7 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/YOUR-ORG
+      link: https://github.com/stan-hua/cph_gsa_website
     - icon: fontawesome/solid/envelope
       link: mailto:gsa@example.berkeley.edu
   generator: false

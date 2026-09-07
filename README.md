@@ -4,7 +4,7 @@ The graduate student association's handbook and wiki, built with
 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published
 free on GitHub Pages.
 
-**Live site:** https://YOUR-ORG.github.io/gsa-site/
+**Live site:** https://stan-hua.github.io/cph_gsa_website/
 
 ---
 
@@ -32,7 +32,7 @@ git init
 git add .
 git commit -m "Initial site"
 git branch -M main
-git remote add origin https://github.com/YOUR-ORG/gsa-site.git
+git remote add origin https://github.com/stan-hua/cph_gsa_website.git
 git push -u origin main
 ```
 
@@ -45,23 +45,36 @@ The workflow in `.github/workflows/deploy.yml` does the rest. Every push to
 
 ### 4. Replace the placeholders
 
-Search the repository for `YOUR-ORG` and for `todo` and work through them.
-The five lines at the top of `mkdocs.yml` are the ones that matter most:
+These are filled in already. If you fork or move the repo, the lines at the
+top of `mkdocs.yml` are the ones that matter:
 
 ```yaml
 site_name:  CoHeRe
-site_url:   https://YOUR-ORG.github.io/gsa-site/
-repo_url:   https://github.com/YOUR-ORG/gsa-site
-repo_name:  YOUR-ORG/gsa-site
+site_url:   https://stan-hua.github.io/cph_gsa_website/
+repo_url:   https://github.com/stan-hua/cph_gsa_website
+repo_name:  stan-hua/cph_gsa_website
 ```
+
+Then search the repository for `todo` and work through what's left.
 
 ### 5. (Optional) Get a berkeley.edu address
 
 The [Open Computing Facility](https://www.ocf.berkeley.edu/docs/services/web/)
-gives registered student groups a free `yourgsa.studentorg.berkeley.edu`
-subdomain. Request a group account, point a CNAME at
-`YOUR-ORG.github.io`, then add the domain under Settings → Pages → Custom domain
-and commit a `docs/CNAME` file containing the domain.
+gives registered student groups a free `*.studentorg.berkeley.edu` subdomain.
+The one we want is **`cohere.studentorg.berkeley.edu`**.
+
+Request a group account, then point a CNAME record at `stan-hua.github.io`
+(the account, not the repo — no path, no https://).
+
+**Moving to the real domain** — three changes, all reversible:
+
+1. Create `docs/CNAME` containing one line: `cohere.studentorg.berkeley.edu`.
+   MkDocs copies it into the built site, which is what GitHub Pages reads.
+2. Set `site_url: https://cohere.studentorg.berkeley.edu/` in `mkdocs.yml`.
+   The site currently lives under the `/cph_gsa_website/` path and moves to
+   the domain root, so this line has to change with it.
+3. Add the domain under Settings → Pages → Custom domain, and tick
+   **Enforce HTTPS** once the certificate has been issued (can take an hour).
 
 Worth doing: OCF ties group accounts to your registered LEAD Center signatories,
 which already rotate every year — so the domain hands over on the same schedule

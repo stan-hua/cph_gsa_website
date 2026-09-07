@@ -25,7 +25,7 @@ their email is unrecoverable without GitHub support.
 
 | | Current holder | Notes |
 |---|---|---|
-| Org name | `YOUR-ORG` | |
+| Repo | `stan-hua/cph_gsa_website` | Personal account, not an org — see README step 1 |
 | Owner 1 | | |
 | Owner 2 | | |
 | Owner 3 | | |
@@ -36,7 +36,7 @@ their email is unrecoverable without GitHub support.
       officers are registered as **LEAD Center signatories** for the group, since
       that is what OCF checks before it will reset the group account password
 - [ ] Reset the OCF group account password and hand it to the incoming officers
-- [ ] Confirm the DNS CNAME still points at `YOUR-ORG.github.io`
+- [ ] Confirm the DNS CNAME still points at `stan-hua.github.io`
 - [ ] If using a purchased domain instead: transfer the registrar account, and
       **check the renewal date and payment method** — an expired card is the most
       common way a student org loses its domain

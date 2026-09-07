@@ -37,6 +37,6 @@ president and treasurer</span>
 
 ## Handing over
 
-Outgoing officers: see [HANDOVER.md](https://github.com/YOUR-ORG/gsa-site/blob/main/HANDOVER.md)
+Outgoing officers: see [HANDOVER.md](https://github.com/stan-hua/cph_gsa_website/blob/main/HANDOVER.md)
 in the repository. It lists every account, domain and permission that needs to
 change hands, and going through it takes about an hour.
