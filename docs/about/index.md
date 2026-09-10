@@ -14,6 +14,30 @@ Concretely, that means:
 - Administering a small budget for student-proposed events
 - Keeping the handbook on this site current
 
+The official program handbook describes the GSA as the body that "represents the
+interests and voices of graduate students within the program… a platform for
+advocacy, community-building, and collaboration, organizing events, providing
+peer support, and facilitating communication between students, faculty, and
+administration."
+
+## Money for student events
+
+CPH runs a **Graduate Student Community/Events Fund** with a set annual budget.
+Any CPH student can propose an event or a resource purchase for the student
+community — you don't have to be a GSA officer.
+
+The process is: talk to the GSAO first, submit an **Expense Request Form**, wait
+for approval, *then* spend. Approval before purchase is mandatory and the
+handbook says there are no exceptions. Full detail on the
+[funding page](../academics/funding.md#funding-a-student-event).
+
+## The Leadership and Community Engagement Fellowship
+
+If you're in **year 2 or beyond** and already doing this kind of work, the CPH
+Student Leadership and Community Engagement Fellowship is a paid, year-long
+appointment (monthly stipend, August–May) for exactly it. Applications open each
+spring; fellows hear back in late summer. Ask the GSAO.
+
 ## How to get involved
 
 Every student in the program is a member. Officers are elected each spring and

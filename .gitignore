@@ -8,3 +8,8 @@ venv/
 # Windows Zone.Identifier (alternate data stream) files
 *:Zone.Identifier
 *Zone.Identifier
+
+# The official CPH program handbook. Kept out of the repo by default — it is the
+# program's document, and this site is public. Remove this line (and move the PDF
+# into docs/) if the program is happy for it to be published here.
+CPH Graduate Student Handbook.pdf
