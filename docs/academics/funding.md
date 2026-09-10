@@ -157,8 +157,8 @@ students who want to run events or buy resources for the CPH student community.
 The process, in order:
 
 1. Talk through the idea with the GSAO first.
-2. Complete the **Expense Request Form** and email it to Bianca Victorica
-   (`biancav@berkeley.edu`).
+2. Complete the **Expense Request Form** and email it to the GSAO, Matt
+   Malepeai (`mmalepe2@berkeley.edu`).
 3. **Wait for approval.** Then buy.
 4. Keep every receipt and invoice — and for events, a guest list of attendees.
 5. Submit for reimbursement with the documentation.

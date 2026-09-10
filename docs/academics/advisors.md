@@ -139,9 +139,14 @@ Who to go to:
 
 | | Who |
 |---|---|
-| Graduate Student Affairs Officer (GSAO) | Bianca Victorica |
+| Graduate Student Affairs Officer (GSAO) | Matt Malepeai — `mmalepe2@berkeley.edu` |
 | Head Graduate Advisor | Maya Petersen, CPH Co-Director |
 | CPH Equity Advisor | Irene Chen, CPH Assistant Professor |
+
+!!! note "The 2026–2027 handbook is out of date on the GSAO"
+    The PDF still names Bianca Victorica. Matt Malepeai is the current GSAO —
+    this page is right and the handbook is stale. Don't "correct" it back when
+    you re-verify against the PDF.
 
 The Equity Advisor's role includes consulting with the Head Graduate Advisor and
 primary advisors on fairness in how students are recruited, selected and retained

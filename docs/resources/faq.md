@@ -76,7 +76,7 @@ answer, add it here.
 
     - **Head Graduate Advisor** — Maya Petersen, CPH Co-Director. Also serves as
       backup when your own advisor is unavailable.
-    - **GSAO** — Bianca Victorica, for anything administrative.
+    - **GSAO** — Matt Malepeai, for anything administrative.
     - **CPH Equity Advisor** — Irene Chen, whose remit includes fairness in how
       students are treated and retained.
     - **Either campus's ombuds office** — confidential and independent.
