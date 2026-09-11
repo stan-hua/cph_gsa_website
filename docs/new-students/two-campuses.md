@@ -7,13 +7,25 @@ both.
 
 | Campus | Address |
 |---|---|
-| **UC Berkeley** | Warren Hall, Suite 120, 2195 Hearst Avenue, Berkeley, CA 94720 |
+| **UC Berkeley** | Barbara and Gerson Bakar Gateway, 2300 Hearst Avenue, Berkeley, CA 94720 |
 | **UCSF** | Wayne & Gladys Valley Center for Vision, 490 Illinois St, Floor 6, Mission Bay, San Francisco, CA 94158 |
+
+The Gateway is at Hearst Avenue and Arch Street, on the north edge of campus.
+It's the home of the College of Computing, Data Science, and Society, which is
+where CPH sits on the Berkeley side.
+
+<p class="todo">Add the floor or suite number for the CPH space in the Gateway —
+neither CDSS nor the handbook publishes one, and "2300 Hearst Avenue" on its own
+is not enough to find an office in a 367,000 sq ft building.</p>
+
+!!! note "The 2026–2027 handbook still says Warren Hall"
+    CPH has since moved to the Gateway. This page is right and the handbook is
+    stale — don't "correct" it back when you re-verify against the PDF.
 
 ## Desks
 
-There are shared workspaces at both: the Warren Hall suite in Berkeley, and
-cubicles on the 6th floor of the Valley Center for Vision at Mission Bay.
+There are shared workspaces at both: the CPH space in the Gateway at Berkeley,
+and cubicles on the 6th floor of the Valley Center for Vision at Mission Bay.
 
 Desks are **first come, first served**, with priority for CPH graduate students
 and researchers actively working in CPH. You're expected to clear your desk and

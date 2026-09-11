@@ -91,13 +91,14 @@ answer, add it here.
     `cvalen@berkeley.edu`, cc'ing your faculty member — who must "reply all" with
     written approval. You'll get a form, then access.
 
-    <span class="todo">Add the after-hours specifics for Warren Hall and the
+    <span class="todo">Add the after-hours specifics for the Gateway and the
     Valley Center for Vision — whether card access works out of hours and who
     grants it.</span>
 
 ??? question "Where do I sit?"
-    Shared workspaces at both campuses: the Warren Hall suite at Berkeley, and
-    6th-floor cubicles at the Valley Center for Vision at Mission Bay. **First
+    Shared workspaces at both campuses: the CPH space in the Gateway at
+    Berkeley, and 6th-floor cubicles at the Valley Center for Vision at Mission
+    Bay. **First
     come, first served** — you don't need to be assigned one. Clear your desk at
     the end of the day. See [working across two campuses](../new-students/two-campuses.md#desks).
 
