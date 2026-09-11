@@ -61,16 +61,16 @@ Then search the repository for `todo` and work through what's left.
 
 The [Open Computing Facility](https://www.ocf.berkeley.edu/docs/services/web/)
 gives registered student groups a free `*.studentorg.berkeley.edu` subdomain.
-The one we want is **`cohere.studentorg.berkeley.edu`**.
+The one we want is **`cph.studentorg.berkeley.edu`**.
 
 Request a group account, then point a CNAME record at `stan-hua.github.io`
 (the account, not the repo — no path, no https://).
 
 **Moving to the real domain** — three changes, all reversible:
 
-1. Create `docs/CNAME` containing one line: `cohere.studentorg.berkeley.edu`.
+1. Create `docs/CNAME` containing one line: `cph.studentorg.berkeley.edu`.
    MkDocs copies it into the built site, which is what GitHub Pages reads.
-2. Set `site_url: https://cohere.studentorg.berkeley.edu/` in `mkdocs.yml`.
+2. Set `site_url: https://cph.studentorg.berkeley.edu/` in `mkdocs.yml`.
    The site currently lives under the `/cph_gsa_website/` path and moves to
    the domain root, so this line has to change with it.
 3. Add the domain under Settings → Pages → Custom domain, and tick

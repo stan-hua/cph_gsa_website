@@ -7,7 +7,7 @@
 # https://stan-hua.github.io/robots.txt — a different repo — and this file is
 # ignored. What actually applies today is the noindex block in
 # overrides/main.html. This file starts working the moment the site moves to
-# cohere.studentorg.berkeley.edu, where it will be at the domain root.
+# cph.studentorg.berkeley.edu, where it will be at the domain root.
 #
 # TO LAUNCH: delete this file and the noindex block in overrides/main.html.
 # ---------------------------------------------------------------------------
