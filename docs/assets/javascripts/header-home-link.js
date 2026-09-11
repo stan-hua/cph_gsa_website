@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------------------------
-   Makes the "CoHeRe" wordmark in the header a link to the home page.
+   Makes the "CoPHe" wordmark in the header a link to the home page.
 
    Material puts the home link on the logo image, which this site hides — the
    tile and the wordmark said the same thing twice. So the wordmark takes the

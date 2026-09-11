@@ -6,8 +6,10 @@
     an SVG favicon. `sizes` states each file's true pixel dimensions. -#}
 {% block extrahead %}
   <link rel="apple-touch-icon" href="{{ 'assets/images/apple-touch-icon-180.png' | url }}">
-  <link rel="icon" type="image/png" sizes="128x128" href="{{ 'assets/images/favicon-32.png' | url }}">
-  <link rel="icon" type="image/png" sizes="2048x2048" href="{{ 'assets/images/favicon-512.png' | url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/images/favicon-16.png' | url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/images/favicon-32.png' | url }}">
+  <link rel="icon" sizes="any" href="{{ 'favicon.ico' | url }}">
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ 'assets/images/favicon-512.png' | url }}">
 
   {#- ------------------------------------------------------------------
       KEEP OUT, FOR NOW. Delete this block (and docs/robots.txt) to launch.

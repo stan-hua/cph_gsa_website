@@ -1,8 +1,8 @@
 # =============================================================================
 #  EDIT THESE FIVE LINES FIRST — everything else can stay as-is.
 # =============================================================================
-site_name: CoHeRe
-site_description: CoHeRe (Computational Health Researchers) — the graduate student
+site_name: CoPHe
+site_description: CoPHe (Computational Precision Health) — the graduate student
   association handbook and wiki for the joint UC Berkeley – UCSF PhD program.
 # GitHub Pages for now. When the OCF subdomain is live, this becomes
 # https://cohere.studentorg.berkeley.edu/ — see "Moving to the real
@@ -17,16 +17,16 @@ repo_name: stan-hua/cph_gsa_website
 edit_uri: edit/main/docs/
 
 copyright: >
-  Maintained by CoHeRe, the UC Berkeley & UCSF CPH GSA.
+  Maintained by CoPHe, the UC Berkeley & UCSF CPH GSA.
 
 theme:
   name: material
   language: en
   favicon: assets/images/favicon.svg
-  # Stacked CoHeRe tile — same artwork as the favicon. extra.css hides it in
-  # the chrome (it spells "CoHeRe", same as the wordmark next to it), but it
-  # stays configured: Material's logo anchor is the home link the wordmark
-  # borrows, and this keeps the right artwork here if it's ever shown again.
+  # CPH tile — same artwork as the favicon. extra.css hides it in the chrome
+  # (the wordmark next to it already names the site), but it stays configured:
+  # Material's logo anchor is the home link the wordmark borrows, and this
+  # keeps the right artwork here if it's ever shown again.
   logo: assets/images/favicon.svg
   # Only for overrides/main.html, which adds the apple-touch-icon and the PNG
   # favicon fallbacks. Nothing else is overridden.

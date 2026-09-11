@@ -1,5 +1,5 @@
 /* ===========================================================================
-   CoHeRe (UC Berkeley & UCSF CPH GSA) — "Notion + quiet wiki" theme
+   CoPHe (UC Berkeley & UCSF CPH GSA) — "Notion + quiet wiki" theme
    Black text, white page, one restrained blue for links, a slim toggle-able
    left sidebar. Nearly everything you'd want to change lives in :root below.
    =========================================================================== */
@@ -234,9 +234,9 @@ body, .md-typeset, input, .md-nav {
 }
 
 /* ===========================================================================
-   COHERE BRANDING
-   The wordmark is three syllables, each its own colour and its own meaning:
-   Co(mputation) · He(alth) · Re(searchers). See BRAND.md.
+   COPHE BRANDING
+   The wordmark is three pieces, each its own colour and its own word:
+   Co(mputational) · P(recision) · He(alth). See BRAND.md.
 
    Material renders the site name as a single text node, so there is nowhere
    to hang three colours. Instead we zero that text out and rebuild it from
@@ -246,21 +246,21 @@ body, .md-typeset, input, .md-nav {
    =========================================================================== */
 
 :root {
-  --cohere-co:   #003262;  /* Berkeley Blue  — Computation */
-  --cohere-he:   #18a3ac;  /* UCSF Teal      — Health      */
-  --cohere-re:   #a87900;  /* Deep gold      — Researchers */
-  --cohere-rule: #fdb515;  /* California Gold             */
+  --cophe-co: #003262;  /* Berkeley Blue — Computational */
+  --cophe-p:  #a87900;  /* Deep gold     — Precision     */
+  --cophe-he: #18a3ac;  /* UCSF Teal     — Health        */
 }
 
-/* On black, the blue and the gold both need lifting to stay vivid. */
+/* On black, all three lift so they stay vivid. */
 [data-md-color-scheme="slate"] {
-  --cohere-co: #3b7ea1;
-  --cohere-re: #fdb515;
+  --cophe-co: #8fb9d6;
+  --cophe-p:  #fdb515;
+  --cophe-he: #3cc7d4;
 }
 
-/* The tile spells "CoHeRe" too, so showing it next to the wordmark says the
-   same thing twice. The wordmark identifies the site everywhere in the chrome;
-   the tile is the favicon and app icon, where a square mark belongs. */
+/* The tile spells "CPH", which the wordmark next to it already says. The
+   wordmark identifies the site everywhere in the chrome; the tile is the
+   favicon and app icon, where a square mark belongs. */
 .md-header__button.md-logo,
 .md-nav--primary .md-nav__title .md-logo {
   display: none;
@@ -282,25 +282,25 @@ body, .md-typeset, input, .md-nav {
 
 .md-header__topic:first-child .md-ellipsis::before {
   content: "Co";
-  color: var(--cohere-co);
+  color: var(--cophe-co);
 }
 
 .md-header__topic:first-child .md-ellipsis::after {
-  content: "He";
-  color: var(--cohere-he);
+  content: "P";
+  color: var(--cophe-p);
 }
 
-/* "Re" hangs off the parent: .md-header__topic is a flex row, so it lands
+/* "He" hangs off the parent: .md-header__topic is a flex row, so it lands
    immediately after the span rather than inside its overflow clip. */
 .md-header__topic:first-child::after {
-  content: "Re";
-  color: var(--cohere-re);
+  content: "He";
+  color: var(--cophe-he);
 }
 
 /* header-home-link.js turns the wordmark into the link home (the logo used to
-   carry that, and it's hidden now). It adds .gsa-linked, which moves "Re"
-   inside the link so the whole word is clickable, not just "CoHe". Without
-   JavaScript the rule above still paints "Re" — it just isn't a link. */
+   carry that, and it's hidden now). It adds .gsa-linked, which moves "He"
+   inside the link so the whole word is clickable, not just "CoP". Without
+   JavaScript the rule above still paints "He" — it just isn't a link. */
 .md-header__topic:first-child.gsa-linked::after {
   content: none;
 }
@@ -311,8 +311,8 @@ body, .md-typeset, input, .md-nav {
 }
 
 .gsa-home-link::after {
-  content: "Re";
-  color: var(--cohere-re);
+  content: "He";
+  color: var(--cophe-he);
 }
 
 /* ---- Mobile drawer ------------------------------------------------------
@@ -322,36 +322,36 @@ body, .md-typeset, input, .md-nav {
 @media screen and (max-width: 76.1875em) {
   .md-nav--primary .md-nav__title[for="__drawer"] {
     font-size: 0;
-    background-image: url("../images/brand/cohere-wordmark.svg");
+    background-image: url("../images/brand/cophe-wordmark.svg");
     background-repeat: no-repeat;
     background-position: 0.8rem center;
     background-size: auto 1.05rem;
   }
   [data-md-color-scheme="slate"] .md-nav__title[for="__drawer"] {
-    background-image: url("../images/brand/cohere-wordmark-on-dark.svg");
+    background-image: url("../images/brand/cophe-wordmark-on-dark.svg");
   }
 }
 
 /* ---- Homepage hero lockup -----------------------------------------------
    Material's `.md-typeset img` sets max-width:100%, so the width has to be
    pinned on a selector at least as specific. */
-.md-typeset .cohere-hero {
+.md-typeset .cophe-hero {
   margin: 0 0 1.5rem;
 }
 
-.md-typeset .cohere-hero p {
+.md-typeset .cophe-hero p {
   margin: 0;
   line-height: 0;   /* no descender gap under the image */
 }
 
-.md-typeset .cohere-hero img {
+.md-typeset .cophe-hero img {
   width: 100%;
   max-width: 21rem;
   height: auto;
 }
 
 /* The h1 under the lockup is a subtitle, not a second logo. */
-.md-typeset .cohere-hero + h1 {
+.md-typeset .cophe-hero + h1 {
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: -0.01em;

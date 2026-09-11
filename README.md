@@ -1,4 +1,4 @@
-# CoHeRe website
+# CoPHe website
 
 The graduate student association's handbook and wiki, built with
 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published
@@ -49,7 +49,7 @@ These are filled in already. If you fork or move the repo, the lines at the
 top of `mkdocs.yml` are the ones that matter:
 
 ```yaml
-site_name:  CoHeRe
+site_name:  CoPHe
 site_url:   https://stan-hua.github.io/cph_gsa_website/
 repo_url:   https://github.com/stan-hua/cph_gsa_website
 repo_name:  stan-hua/cph_gsa_website

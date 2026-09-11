@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-<div class="cohere-hero" markdown>
-![CoHeRe — Computational Health Researchers](assets/images/brand/cohere-lockup.svg#only-light)
-![CoHeRe — Computational Health Researchers](assets/images/brand/cohere-lockup-on-dark.svg#only-dark)
+<div class="cophe-hero" markdown>
+![CoPHe — Computational Precision Health](assets/images/brand/cophe-lockup.svg#only-light)
+![CoPHe — Computational Precision Health](assets/images/brand/cophe-lockup-on-dark.svg#only-dark)
 </div>
 
 # The UC Berkeley & UCSF CPH GSA handbook
