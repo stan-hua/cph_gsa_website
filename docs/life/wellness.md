@@ -1,6 +1,6 @@
 # Health and wellness
 
-## Insurance — you're enrolled by default
+## Insurance, and why you already have it
 
 Having major medical insurance is a **condition of registration**. You are
 automatically enrolled in the **Student Health Insurance Plan (SHIP)** and
@@ -11,12 +11,11 @@ health and prescription benefits. As long as you register each semester or
 quarter, coverage continues year-round.
 
 !!! warning "Waiving has a hard deadline"
-    You can waive SHIP if you already have comparable major medical cover — but
-    the waiver form has a submission deadline, and you only get credited for the
-    health insurance fee if you meet it. Miss it and you pay for insurance you
-    didn't want.
+    You can waive SHIP if you already hold comparable major medical cover. The
+    waiver form has a submission deadline, and the fee is credited back only if you
+    meet it. Miss it and you pay for insurance you did not want.
 
-Summer edge cases worth knowing:
+Summer edge cases:
 
 - Covered by SHIP in spring? You can use University Health Services over the
   summer.
@@ -31,21 +30,36 @@ Summer edge cases worth knowing:
 | Primary care | University Health Services, Tang Center | Student Health and Counseling Services |
 | Urgent care | Tang Center urgent care | Student Health and Counseling Services |
 | Counseling | Counseling and Psychological Services (CAPS), Tang Center | UCSF Student Health and Counseling Services |
-| Crisis, 24/7 | <span class="todo">add number</span> | UCSF CARE Hotline — 24/7 for UCSF affiliates |
+| Crisis, 24/7 | Tang counselling line: **855-817-5667**, or text **HOME** to **741741** | UCSF CARE Hotline, 24/7 for UCSF affiliates |
 
 All registered students may use University Health Services for outpatient primary
 care and counselling. At UC Berkeley you are **eligible for mental health and
-counselling services regardless of insurance coverage** — including if you waived
+counselling services regardless of insurance coverage**, including after waiving
 SHIP.
 
 ## Mental health
 
-Graduate school is hard on people, and using counseling is common rather than
-exceptional. Both campuses offer sessions to enrolled students, and both
-have waitlists — so if you think you might want it in a month, book now.
+Both campuses offer counselling sessions to enrolled students, and both have
+waitlists. We recommend booking well before you need an appointment.
 
 If you are in crisis, call or text **988** (Suicide and Crisis Lifeline), or go to
-the nearest emergency room.
+the nearest emergency room. Berkeley's own 24/7 line is **855-817-5667**. The
+Tang Center also takes walk-ins for urgent counselling on weekdays without an
+appointment.
+
+Two confidential services are easy to miss, and both are scoped to graduate
+students rather than undergraduates:
+
+- **UHS Social Services.** Free counselling and consultation, including about
+  someone *else's* drinking or drug use. `510-642-6074`, with a satellite office
+  at **University Village on 510-520-7031** if you live there.
+- **Ombuds Office for Students and Postdoctoral Appointees.** `510-642-5754`,
+  confidential and neutral. Useful when something is going wrong with a lab, an
+  advisor or a department and you have yet to decide what to do about it.
+
+For harassment, discrimination, sexual violence or hazing, and for who has to
+report what you tell them, see
+[getting support, and reporting harm](support-and-reporting.md).
 
 !!! note "CARE's scope is currently reduced"
     UCSF's CARE program (violence and harassment support) has temporarily narrowed
@@ -57,7 +71,7 @@ the nearest emergency room.
 ## Disability accommodations
 
 Both campuses run disability services, and **registering at one does not register
-you at the other** — you need to do both.
+you at the other**. Do both.
 
 At UC Berkeley, the **Disabled Students' Program (DSP)** assigns every active
 student a dedicated Disability Specialist. Your specialist's name and contact
@@ -78,37 +92,40 @@ For specific logistics you can go direct to the auxiliary units:
 | Alternative media | `dspamc@berkeley.edu` |
 | Lead Disability Specialists | Stephanie LaBarge, Rebecca Whitney |
 
-<p class="todo">Add the UCSF disability services office and its intake process —
-the CPH handbook only details the Berkeley side.</p>
+<p class="todo pending">Add the UCSF disability services office and its intake
+process. The CPH handbook details the Berkeley side alone.</p>
 
 ## Fitness and recreation
 
 | Campus | Facility |
 |---|---|
-| UC Berkeley | **Recreational Sports Facility (RSF)** — Olympic pool, three weight rooms, basketball/racquetball/squash courts, cardio, group exercise, martial arts, personal training |
-| UCSF Mission Bay | **Bakar Fitness Center** — three fitness floors, rooftop *and* indoor pools, Pilates studio, squash and racquetball, NBA-sized basketball court, climbing wall, Group X and F45 |
-| UCSF Parnassus | **Millberry Fitness Center** — indoor pool, group fitness with online booking, basketball and squash, saunas, personal training |
+| UC Berkeley | **Recreational Sports Facility (RSF)**: Olympic pool, three weight rooms, basketball/racquetball/squash courts, cardio, group exercise, martial arts, personal training |
+| UCSF Mission Bay | **Bakar Fitness Center**: three fitness floors, rooftop *and* indoor pools, Pilates studio, squash and racquetball, NBA-sized basketball court, climbing wall, Group X and F45 |
+| UCSF Parnassus | **Millberry Fitness Center**: indoor pool, group fitness with online booking, basketball and squash, saunas, personal training |
 
-<p class="todo">Add what membership actually costs at each, and what's included
-with student status versus what's extra.</p>
+<p class="todo pending">Add what membership costs at each, and what is included with
+student status versus what's extra.</p>
 
 ## Professional and academic support
 
-- **GradPro** (UC Berkeley) — one-on-one consultations, workshops and
-  professional development for careers inside and outside academia
+- **GradPro** (UC Berkeley). One-on-one consultations, workshops and professional
+  development for careers inside and outside academia
 - **Graduate Writing Center** (UC Berkeley)
-- **Student Advocate's Office** (UC Berkeley) — a student-run office handling
-  academic, financial aid and grievance cases. Worth knowing about *before* you
-  need it
-- **Inclusive Excellence Hub** (UC Berkeley) — campus-wide community space for
+- **Student Advocate's Office** (UC Berkeley). A student-run office handling
+  academic, financial aid and grievance cases
+- **Inclusive Excellence Hub** (UC Berkeley). Campus-wide community space for
   graduate students
 
 ## Everyday things
 
-- **Basic Needs Center / Student Pantry** at UC Berkeley — food support, for
-  anyone who needs it, no justification required
-- **WarnMe** — UC Berkeley's emergency alerting system. Make sure your number is
-  current
+- **Basic Needs Center / Student Pantry** at UC Berkeley. Food support for anyone
+  who needs it, with no justification required
+- **Free naloxone and fentanyl test strips** at UC Berkeley, through University
+  Health Services: <https://uhs.berkeley.edu/health-topics/fentanyl>
+- **Collegiate Recovery Program** (UC Berkeley). Peer support for students at any
+  stage of recovery, on a harm-reduction footing
+- **WarnMe**, UC Berkeley's emergency alerting system. Keep your number current
 - <span class="todo">Add the UCSF equivalents for both.</span>
 
-**Last verified against the official handbook:** 9 September 2026 (2026–2027 edition)
+**Last verified against the official handbook:** 9 September 2026 (2026–2027 edition) ·
+campus contact details from Berkeley's 2026-27 Signatory Training, September 2026

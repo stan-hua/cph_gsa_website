@@ -1,14 +1,10 @@
 # Bylaws
 
-<p class="todo">Paste the current bylaws here, or link to the authoritative copy
-and note where it lives. If the GSA has no written bylaws, writing them is a good
-project for a president who wants to leave something behind.</p>
+<p class="todo pending">Paste the current bylaws here, or link to the authoritative
+copy and note where it lives. If the GSA has no written bylaws, writing them is a
+good project for a president who wants to leave something behind.</p>
 
-## Why bother
-
-Written bylaws matter for exactly two moments: a contested election, and a
-disagreement about money. Both are rare and both go badly without a written rule
-to point at.
+## What bylaws cover
 
 A minimal set covers:
 

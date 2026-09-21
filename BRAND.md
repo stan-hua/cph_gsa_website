@@ -1,4 +1,4 @@
-# CoPHe — logo kit
+# CoPHe logo kit
 
 **CoPHe** · the graduate student association of the joint UC Berkeley–UCSF
 **Co**mputational **P**recision **He**alth PhD program.
@@ -6,12 +6,12 @@
 The name is its own explanation. Each coloured piece is one word of the program,
 in the colour of the school or idea behind it:
 
-- **Co** — *Computational* — **Berkeley Blue**
-- **P** — *Precision* — **gold**
-- **He** — *Health* — **UCSF Teal**
+- **Co**, *Computational*, in **Berkeley Blue**
+- **P**, *Precision*, in **gold**
+- **He**, *Health*, in **UCSF Teal**
 
 Set in Poppins Bold, with a rule over the "Computational Precision Health"
-tagline. Prefer the SVGs — they stay sharp at any size.
+tagline. Prefer the SVGs, which stay sharp at any size.
 
 ## Colours
 
@@ -28,10 +28,10 @@ gold → `#FDB515`) so all three stay vivid.
 
 ## Which file
 
-### Horizontal logo — `docs/assets/images/brand/`, `png/`
+### Horizontal logo: `docs/assets/images/brand/`, `png/`
 | File | What it is |
 |---|---|
-| `docs/assets/images/brand/cophe-lockup.svg` | **Main logo** — wordmark + rule + tagline. The rule runs Berkeley-blue into UCSF-teal (the two schools). Light backgrounds. |
+| `docs/assets/images/brand/cophe-lockup.svg` | **Main logo**: wordmark, rule and tagline. The rule runs Berkeley-blue into UCSF-teal (the two schools). Light backgrounds. |
 | `docs/assets/images/brand/cophe-lockup-gold-rule.svg` | Same, but with a single California-gold rule, if you prefer that. |
 | `docs/assets/images/brand/cophe-lockup-on-dark.svg` | The main logo for dark backgrounds. |
 | `docs/assets/images/brand/cophe-wordmark.svg` | The wordmark alone, no tagline. |
@@ -41,7 +41,7 @@ gold → `#FDB515`) so all three stay vivid.
 The three initials **CPH**, across, each in its colour (C blue · P gold · H teal).
 | File | What it is |
 |---|---|
-| `docs/assets/images/brand/cophe-square.svg` | **CPH** on white — the profile picture / app tile. |
+| `docs/assets/images/brand/cophe-square.svg` | **CPH** on white, for the profile picture or app tile. |
 | `docs/assets/images/brand/cophe-square-navy.svg` | CPH on a Berkeley-navy tile. |
 | `docs/assets/images/brand/cophe-square-transparent.svg` | CPH with no background, to drop onto any colour. |
 
@@ -50,7 +50,7 @@ The three initials **CPH**, across, each in its colour (C blue · P gold · H te
 | File | Use |
 |---|---|
 | `docs/assets/images/favicon.svg` | Modern browsers (scales to any size). |
-| `docs/favicon.ico` | Classic multi-size icon (16/32/48) — drop at the site root. |
+| `docs/favicon.ico` | Classic multi-size icon (16/32/48), dropped at the site root. |
 | `docs/assets/images/favicon-32.png`, `favicon-16.png` | PNG fallbacks. |
 | `docs/assets/images/apple-touch-icon-180.png` | iOS home-screen icon. |
 
@@ -61,7 +61,7 @@ and `docs/favicon.ico` sits at the docs root so it lands at the site root.
 
 ## How the site uses it
 
-In the site chrome the **wordmark alone** identifies the site — rendered as live
+In the site chrome the **wordmark alone** identifies the site, rendered as live
 tri-coloured text, not an image, and clickable as the link home. The square tile
 is the favicon and app icon only; showing it beside the wordmark would say the
 same thing twice.
@@ -75,13 +75,13 @@ Material's `#only-light` / `#only-dark` suffixes.
 
 ## Type
 
-**Poppins Bold** (Google Fonts, Open Font License — free for any use). The letters
+**Poppins Bold** (Google Fonts, Open Font License, free for any use). The letters
 are outlined here, so nothing depends on the font being installed. To rebuild from
 live text, use Poppins Bold and colour Co `#003262`, P `#A87900`, He `#18A3AC`.
 
 ## Using it well
 
 Keep clear space around the logo at least the height of the "o". Don't stretch it,
-change the font, recolour the syllables, or add effects — start from these files if
+change the font, recolour the syllables, or add effects, start from these files if
 you need a change. It uses the official Berkeley and UCSF colours, so keep it
 distinct from the universities' own logos rather than presenting it as one.

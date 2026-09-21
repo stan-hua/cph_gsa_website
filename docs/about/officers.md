@@ -25,15 +25,17 @@ first, and a stale officer list makes the whole site look abandoned.</p>
 Officers are elected each spring and take over in <span class="todo">month</span>.
 Any student in the program can run and any student can vote.
 
-<p class="todo">Describe how nominations open, how voting happens, and when.</p>
+<p class="todo pending">Describe how nominations open, how voting happens, and
+when.</p>
 
 ## Internal resources
 
-Some GSA material stays off this public site: the member roster, budget detail,
-past qual proposals, and successful fellowship applications shared by students.
+Anything that should not be public belongs somewhere else: the member roster,
+budget detail with names, and any material students share on the understanding
+that it stays within the program.
 
-**Private Drive folder:** <span class="todo">link — access managed by the
-president and treasurer</span>
+<p class="todo pending">Set up a private folder for that material, then link it here
+and say who manages access.</p>
 
 ## Handing over
 

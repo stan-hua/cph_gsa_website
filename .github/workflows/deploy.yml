@@ -24,7 +24,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # fetch-depth: 0 pulls the full history. hooks/last_edited.py reads commit
+      # dates from it for the "last update" line and the "new" badges; a shallow
+      # clone would date every page to the same commit.
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v7
         with:

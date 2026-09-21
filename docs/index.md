@@ -5,18 +5,17 @@ hide:
 ---
 
 <div class="cophe-hero" markdown>
-![CoPHe — Computational Precision Health](assets/images/brand/cophe-lockup.svg#only-light)
-![CoPHe — Computational Precision Health](assets/images/brand/cophe-lockup-on-dark.svg#only-dark)
+![CoPHe, Computational Precision Health](assets/images/brand/cophe-lockup.svg#only-light)
+![CoPHe, Computational Precision Health](assets/images/brand/cophe-lockup-on-dark.svg#only-dark)
 </div>
 
 # The UC Berkeley & UCSF CPH GSA handbook
 
-The student-run handbook for our joint PhD program — everything we wish someone
-had told us in year one, kept current by the people living it now.
+The student-run handbook for our joint PhD program.
 
 ## Where to start
 
-[**New to the program?**](new-students/index.md) &nbsp;Admitted, deciding, or arriving in August — start with the orientation guide.
+[**New to the program?**](new-students/index.md) &nbsp;Admitted, deciding, or arriving in August? Start with the orientation guide.
 
 [**Preparing for quals?**](academics/quals.md) &nbsp;Timelines, committee etiquette, and past students' notes.
 
@@ -30,33 +29,30 @@ had told us in year one, kept current by the people living it now.
 
 ## What this site is
 
-Two things live here, and keeping them apart keeps the site useful.
+This site has two kinds of page, maintained differently.
 
-The **handbook** holds knowledge that outlives any one cohort: how quals actually
-work, what to ask a prospective advisor, which forms UCSF wants and which
-UC Berkeley wants. Write these pages for a student three years from now.
+The **handbook** holds knowledge that outlives any one cohort: how quals work,
+what to ask a prospective advisor, which forms each campus requires. Write these
+pages for a student three years from now.
 
-The **GSA pages** hold what's true this year: officers, meeting minutes, upcoming
-events, the current budget. These go stale on purpose and get refreshed each fall.
+The **GSA pages** hold what is true this year: officers, minutes, upcoming events,
+the current budget. They are refreshed each fall.
 
 !!! tip "Found something wrong or out of date?"
 
-    Click the :material-pencil: pencil at the top right of any page. It opens
-    the GitHub editor, you type, you describe the change, and it's live in about
-    a minute. No install, no local setup. See [Edit this site](resources/editing.md).
+    Click the :material-pencil: pencil at the top right of any page. It opens the
+    GitHub editor; you type, describe the change, and it goes live in about a
+    minute. See [Edit this site](resources/editing.md).
 
 ## This site is public
 
 Everything here is world-readable, including by prospective students and faculty.
-That's mostly the point — it's a recruiting asset as much as an internal one.
-
-But it does mean some things never go in these pages: student contact lists,
-anything with grades or evaluations in it, budget line items with names attached,
-and candid opinions about specific faculty. Those belong in the GSA's private
-Drive folder, linked from the [officers page](about/officers.md) for people with
-access.
+Some things therefore stay off it: student contact lists, grades and evaluations,
+budget lines with names attached, and candid opinions about specific faculty.
+Keep those off the site. See the
+[officers page](about/officers.md) for where internal material should go.
 
 ---
 
-*Last reviewed: **September 2026** · Maintained by the GSA communications officer ·
+*Last reviewed: **September 2026** · Maintained by the GSA ·
 [Contact us](about/officers.md)*
