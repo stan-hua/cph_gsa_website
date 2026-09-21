@@ -358,3 +358,53 @@ body, .md-typeset, input, .md-nav {
   color: var(--md-default-fg-color);
   margin-top: 0;
 }
+
+/* ---- Footer disclaimer --------------------------------------------------
+   The independence disclaimer Berkeley requires of registered student
+   organizations. It sits inside Material's copyright line (set in mkdocs.yml),
+   on its own line, in a lighter colour than the line above it. */
+.md-copyright .gsa-disclaimer {
+  display: block;
+  margin-top: 0.3em;
+  max-width: var(--gsa-measure);
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: var(--md-footer-fg-color--lighter);
+}
+
+/* ---- Page state pills ---------------------------------------------------
+   Added by assets/javascripts/whats-new.js. Green for a page added inside the
+   window set in hooks/last_edited.py, grey for one edited inside it, orange for
+   a page still carrying todo markers. */
+.whats-new-pill {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0 0.35em;
+  border-radius: 0.2em;
+  background: #0f7b6c;
+  color: #fff;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
+
+.whats-new-pill--updated { background: #6b6b6b; }
+.whats-new-pill--pending { background: #c2410c; }
+
+/* Next to an h1 the pill should not inherit the heading's size. */
+.md-typeset h1 .whats-new-pill {
+  font-size: 0.5rem;
+  vertical-align: 0.5em;
+}
+
+/* Material's own last-update line, fed by hooks/last_edited.py. Quieter than
+   the body text, since it is metadata. */
+.md-source-file {
+  margin-top: 2rem;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+}

@@ -15,7 +15,7 @@ Do this once, when you first stand the site up. It takes about twenty minutes.
 ### 1. Create a GitHub **Organization**, not a personal repo
 
 This is the part that makes the site survive. Go to
-<https://github.com/organizations/plan> and create a free organization — call it
+<https://github.com/organizations/plan> and create a free organization, named
 something like `uc-berkeley-ucsf-cph-gsa`.
 
 An organization owns itself. Officers are added and removed as owners each year,
@@ -64,9 +64,9 @@ gives registered student groups a free `*.studentorg.berkeley.edu` subdomain.
 The one we want is **`cph.studentorg.berkeley.edu`**.
 
 Request a group account, then point a CNAME record at `stan-hua.github.io`
-(the account, not the repo — no path, no https://).
+(the account rather than the repo: no path, no https://).
 
-**Moving to the real domain** — three changes, all reversible:
+**Moving to the real domain** takes three changes, all reversible:
 
 1. Create `docs/CNAME` containing one line: `cph.studentorg.berkeley.edu`.
    MkDocs copies it into the built site, which is what GitHub Pages reads.
@@ -77,8 +77,8 @@ Request a group account, then point a CNAME record at `stan-hua.github.io`
    **Enforce HTTPS** once the certificate has been issued (can take an hour).
 
 Worth doing: OCF ties group accounts to your registered LEAD Center signatories,
-which already rotate every year — so the domain hands over on the same schedule
-as your officers, with no action from you.
+which already rotate every year, so the domain hands over on the same schedule as
+your officers, with no action from you.
 
 ### 6. The site is currently hidden from search engines
 
@@ -88,8 +88,8 @@ the LLM ones (GPTBot, ClaudeBot, Google-Extended, CCBot and friends).
 
 One catch worth understanding: **robots.txt only counts at a domain root.**
 While the site lives at `stan-hua.github.io/cph_gsa_website/`, crawlers read
-`https://stan-hua.github.io/robots.txt` — which belongs to a different
-repository — so `docs/robots.txt` does nothing yet. The meta tags in
+`https://stan-hua.github.io/robots.txt`, which belongs to a different repository,
+so `docs/robots.txt` does nothing yet. The meta tags in
 `overrides/main.html` are what actually applies today. `docs/robots.txt`
 starts working the moment the site moves to its own domain.
 
@@ -126,11 +126,11 @@ Strict mode fails on broken internal links, which is most of what goes wrong.
 The site uses a deliberately plain "Notion" style: black text on white, one
 restrained blue for links, and a slim left sidebar that doubles as the table of
 contents for the current page. Readers can **hide the sidebar** with the toggle
-button at the top-left of the header — the choice is remembered in their browser.
+button at the top-left of the header, and the browser remembers the choice.
 
 Nearly every visual knob lives at the top of
 [`docs/assets/stylesheets/extra.css`](docs/assets/stylesheets/extra.css), in the
-`:root` block — the ink colour, the link colour, and how wide the reading column
+`:root` block: the ink colour, the link colour, and how wide the reading column
 gets. Change a value there and the whole site follows. The header colours (white
 in light mode, black in dark) are set in `mkdocs.yml` under `theme.palette`.
 
@@ -144,14 +144,14 @@ The toggle itself is a tiny, dependency-free script at
 ```
 mkdocs.yml              site config and the navigation menu
 requirements.txt        pinned dependencies
-HANDOVER.md             the yearly transfer checklist — read this in May
+HANDOVER.md             the yearly transfer checklist, read in May
 CONTRIBUTING.md         conventions for editors
 docs/
   index.md              home page
   new-students/         orientation and arrival
   academics/            curriculum, quals, advisors, funding
   life/                 wellness, social, the Bay Area
-  about/                the GSA itself — officers, meetings, bylaws
+  about/                the GSA itself: officers, meetings, bylaws
   events/               upcoming and past
   resources/            forms, FAQ, how to edit this site
   assets/               images and the stylesheet

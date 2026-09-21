@@ -1,9 +1,12 @@
 # Events
 
+[Planning an event](planning-an-event.md) lists the campus lead times, the room
+options, and the six-week rule for larger events.
+
 ## Upcoming
 
-<p class="todo">Keep this list short and current. An events page listing last
-year's events is worse than no events page.</p>
+<p class="todo">Keep this list short and current, and remove events once they have
+passed.</p>
 
 | Date | Event | Location |
 |---|---|---|
@@ -11,14 +14,11 @@ year's events is worse than no events page.</p>
 
 ## Recurring
 
-- **Weekly seminar** — <span class="todo">day, time, location</span>
-- **Monthly GSA meeting** — see [meetings](../about/meetings.md)
-- **Quarterly social** — organized by the social chair
+- **Weekly seminar**: <span class="todo">day, time, location</span>
+- **Monthly GSA meeting**: see [meetings](../about/meetings.md)
+- **Quarterly social**, organized by the social chair
 
 ## Past events
 
-Photos and write-ups from previous years. Worth keeping: prospective students read
-this page, and it does more recruiting than any brochure.
-
-<p class="todo">Add a short entry with a photo or two after each significant event.
-Ask before posting photos of identifiable people.</p>
+<p class="todo">Add a short entry with a photo or two after each event. Ask before
+posting photos of identifiable people.</p>

@@ -1,6 +1,6 @@
 # Calendar
 
-Our shared Google Calendar. Once it's set up, it updates itself — add or change
+Our shared Google Calendar. Once set up, it updates itself: add or change
 an event in Google Calendar and it appears here automatically, with no edit to
 this site.
 
@@ -15,7 +15,7 @@ this site.
 
 [Open the full calendar in Google Calendar &rarr;](https://calendar.google.com/calendar/u/0/embed?src=YOUR_CALENDAR_ID){ target="_blank" rel="noopener" }
 
-!!! note "One-time setup — replace `YOUR_CALENDAR_ID` above"
+!!! note "One-time setup: replace `YOUR_CALENDAR_ID` above"
 
     In Google Calendar, open **Settings → Settings for my calendars →** *your
     calendar* **→ Integrate calendar**. Copy the **Calendar ID** (it looks like
@@ -27,13 +27,13 @@ this site.
     see an empty box.
 
     Google's own **Embed code** (the button just below the Calendar ID) also lets
-    you pick colours, the default view, and which details to show — paste the
+    you pick colours, the default view, and which details to show. Paste the
     `<iframe …>` it gives you inside the `<div class="gsa-calendar">` above,
     replacing the one that's there.
 
 ## Adding events
 
-Anyone with edit access to the Google Calendar can add events the normal way —
+Anyone with edit access to the Google Calendar adds events the normal way, and
 this page just mirrors it. Ask the [social chair or communications officer](../about/officers.md)
 to be added as an editor.
 

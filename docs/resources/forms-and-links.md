@@ -1,10 +1,10 @@
 # Forms and links
 
-Every system either campus will make you use, in one place. If you hunt for
-something and eventually find it, add it here so the next person doesn't have to.
+Every system either campus will make you use, in one place. Add anything you had
+to hunt for, so the next person finds it here.
 
-Most of these come from the official *CPH Graduate Student Handbook 2026–2027*
-and were checked in September 2026.
+Most of these come from the official *CPH Graduate Student Handbook 2026–2027* and
+were checked in September 2026.
 
 ## Start here
 
@@ -60,8 +60,8 @@ and were checked in September 2026.
 | Tax information | <https://graduate.ucsf.edu/students/wellness/tax-information> |
 | Learning management (Learn) | <https://learn.ucsf.edu/> |
 | Student transportation | <https://campuslifeserviceshome.ucsf.edu/transportation/student> |
-| GRAD 202 — Racism in Science | <https://graduate.ucsf.edu/grad-202-racism-in-science> |
-| RCR course | <span class="todo">The handbook's link is dead — get the current one</span> |
+| GRAD 202, Racism in Science | <https://graduate.ucsf.edu/grad-202-racism-in-science> |
+| RCR course | <span class="todo">The handbook's link is dead; get the current one</span> |
 | IT helpdesk | <span class="todo">link</span> |
 
 ## Health, wellness and recreation
@@ -78,31 +78,54 @@ and were checked in September 2026.
 
 | What | UC Berkeley | UCSF |
 |---|---|---|
-| Ombuds office | <https://sa.berkeley.edu/ombuds> | <https://ombuds.ucsf.edu/> |
-| Confidential violence/harassment support | [PATH to Care](https://care.berkeley.edu/) · [Survivor Support](https://survivorsupport.berkeley.edu/) | [CARE Program](https://resilience.ucsf.edu/care-program) |
+| Ombuds office | <https://sa.berkeley.edu/ombuds> · 510-642-5754 | <https://ombuds.ucsf.edu/> |
+| Confidential violence/harassment support | [PATH to Care](https://care.berkeley.edu/) · 510-642-1988 · [Survivor Support](https://survivorsupport.berkeley.edu/) | [CARE Program](https://resilience.ucsf.edu/care-program) |
+| Title IX / harassment and discrimination reporting | [OPHD](https://ophd.berkeley.edu) · 510-643-7985 | <span class="todo">link</span> |
 | Disability services | [DSP](https://dsp.berkeley.edu/) | [SDS](https://sds.ucsf.edu/) |
 | Equity and inclusion | <https://diversity.berkeley.edu/> | <https://opportunity.ucsf.edu/> |
 | Gender Equity Resource Center | <https://cejce.berkeley.edu/geneq> | — |
 | Trans Resource Hub | <https://thriving.berkeley.edu/trans-resource-hub> | — |
 | Undocumented student services | <https://undocu.berkeley.edu/> | — |
-| Student Advocate's Office | <https://advocate.berkeley.edu/> | — |
+| Student Advocate's Office | <https://advocate.berkeley.edu/> · 510-642-6912 | — |
 | International students office | <span class="todo">Berkeley International Office</span> | <span class="todo">link</span> |
+
+## Running the GSA (UC Berkeley)
+
+Everything on this table requires current signatory status. See
+[registration and signatories](../about/registration-and-signatories.md).
+
+| What | Link |
+|---|---|
+| CalLink (org registration, roster, purchase requests) | <https://callink.berkeley.edu/> |
+| CalLink forms (sponsorship, funding, tax ID) | <https://callink.berkeley.edu/forms> |
+| OASIS / LEAD Center, our advising office | <https://lead.berkeley.edu/> · `oasis.center@berkeley.edu` · 510-703-4115 |
+| Manage your student org (registration, events, transition) | <https://lead.berkeley.edu/student-orgs/manage-your-org/> |
+| Graduate Assembly funding | <https://ga.berkeley.edu/funding/> |
+| ASUC annual budget and space allocation (ABSA) | <https://asuc.org/absa/> |
+| Berkeley Event Services | <https://eventservices.berkeley.edu/> · `eventservices@berkeley.edu` · 510-642-1141 |
+| Classroom reservations | <https://eventservices.berkeley.edu/classroom-reservations/> · `classroomevents@berkeley.edu` |
+| 25Live (space booking) | <https://25live.collegenet.com/pro/berkeley> |
+| Cub-E tabling on Upper Sproul | <https://lead.berkeley.edu/about/cub-e/> |
+| Major Events Policy, the six-week rule | <https://eventservices.berkeley.edu/campus-major-events-policy-update/> · `majorevents@berkeley.edu` |
+| Event liability insurance | <https://ucberk.campusconnexionsuc.com/student-campus-groups/registered-student-organization/event-liability.html> |
+| Risk Services, events and activities | <https://riskservices.berkeley.edu/student/events-activities> |
+| EH&S event and food permits | <https://ehs.berkeley.edu/safety-subjects/event-safety/event-permit-procedures> |
+| Brand Management (names, logos, merchandise) | <https://bcbp.berkeley.edu/brand-protection/using-berkeley-name-and-trademarks/trademarks> · `brandmanagement@berkeley.edu` |
+| Report a conduct concern | <https://conduct.berkeley.edu/report/> |
 
 ## Graduate student government
 
-- **Graduate Assembly** (UC Berkeley) — <https://ga.berkeley.edu/>
-- **Graduate & Professional Student Association** (UCSF) — <https://gpsa.ucsf.edu/assembly>
+- **Graduate Assembly** (UC Berkeley): <https://ga.berkeley.edu/>
+- **Graduate & Professional Student Association** (UCSF): <https://gpsa.ucsf.edu/assembly>
 
 Both are worth joining the mailing list for; that's where a lot of campus-wide
 opportunities are announced.
 
 !!! note "Some program forms aren't public"
-    The handbook links several internal Google Docs and Sheets — the qualifying
-    exam instructions, the Expense Request Form, fellowship trackers. Those
-    aren't reproduced here because this site is public. Ask the GSAO or a GSA
-    officer for access.
+    The handbook links several internal Google Docs and Sheets: the qualifying
+    exam instructions, the Expense Request Form, fellowship trackers. This site is
+    public, so they stay off it. Ask the GSAO for access.
 
-!!! note "Links rot"
-    Campus sites reorganize constantly. If you click something here and it 404s,
-    find the new URL and [fix it](editing.md) — it takes a minute and saves
-    everyone else the hunt.
+!!! note "Links break"
+    Campus sites reorganize constantly. When something here 404s, find the new URL
+    and [fix it](editing.md). It takes a minute and saves everyone else the hunt.

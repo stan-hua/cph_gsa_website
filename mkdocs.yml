@@ -16,8 +16,14 @@ repo_name: stan-hua/cph_gsa_website
 # GitHub web editor. This is how most people will make small fixes.
 edit_uri: edit/main/docs/
 
+# Rendered in the footer of every page. The second sentence is the disclaimer
+# UC Berkeley requires of every registered student organization. Keep it on
+# every page, verbatim.
 copyright: >
-  Maintained by CoPHe, the UC Berkeley & UCSF CPH GSA.
+  Maintained by CoPHe, the UC Berkeley &amp; UCSF CPH GSA.
+  <span class="gsa-disclaimer">We are a student group acting independently of
+  the University of California, Berkeley. We take full responsibility for our
+  organization and this website.</span>
 
 theme:
   name: material
@@ -70,6 +76,9 @@ extra_css:
 extra_javascript:
   - assets/javascripts/sidebar-toggle.js
   - assets/javascripts/header-home-link.js
+  # Generated at build time by hooks/last_edited.py, then read by whats-new.js.
+  - assets/javascripts/whats-new-data.js
+  - assets/javascripts/whats-new.js
 
 extra:
   social:
@@ -79,8 +88,25 @@ extra:
       link: mailto:gsa@example.berkeley.edu
   generator: false
 
+# Renaming a heading silently breaks links that point at its anchor, so the
+# build checks them. With `mkdocs build --strict` these become errors.
+validation:
+  anchors: warn
+  unrecognized_links: warn
+
 plugins:
   - search
+
+# Reads the git history to put a "last update" date on every page, and to badge
+# pages changed in the last 30 days. Needs full history, which is why the deploy
+# workflow checks out with fetch-depth: 0.
+hooks:
+  - hooks/last_edited.py
+
+# `mkdocs serve` watches docs/ and mkdocs.yml by default. Add the hook, so editing
+# it reloads the server instead of silently serving the previous version.
+watch:
+  - hooks
 
 markdown_extensions:
   - abbr
@@ -123,9 +149,11 @@ nav:
       - Qualifying exam: academics/quals.md
       - Choosing an advisor and lab: academics/advisors.md
       - Funding, fellowships and travel: academics/funding.md
+      - Taxes: academics/taxes.md
 
   - Student Life:
       - Health and wellness: life/wellness.md
+      - Getting support, and reporting harm: life/support-and-reporting.md
       - Social events and clubs: life/social.md
       - Living in the Bay Area: life/bay-area.md
 
@@ -134,7 +162,10 @@ nav:
       - Current officers: about/officers.md
       - Meetings and minutes: about/meetings.md
       - Bylaws: about/bylaws.md
+      - Registration and signatories: about/registration-and-signatories.md
+      - Funding events: about/funding-events.md
       - Events: events/index.md
+      - Planning an event: events/planning-an-event.md
       - Calendar: events/calendar.md
 
   - Resources:

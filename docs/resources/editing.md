@@ -1,7 +1,6 @@
 # Edit this site
 
-Anyone in the program can change any page here. You need a free GitHub account and
-about two minutes.
+Anyone in the program can change any page here. You need a free GitHub account.
 
 ## The one-minute way: edit in the browser
 
@@ -46,7 +45,7 @@ See [the quals page](../academics/quals.md).
 ```
 
 MkDocs checks these links when it builds, so a broken internal link fails the
-build loudly rather than sitting there rotting.
+build.
 
 ### Callout boxes
 
@@ -57,9 +56,17 @@ Swap `tip` for `note`, `warning`, `danger`, `success`, or `failure`.
 
 ### Marking something as needing work
 
-    <p class="todo">Someone should fill in the actual deadline here.</p>
+    <p class="todo pending">Someone should fill in the actual deadline here.</p>
 
-These render in italics with a gold bar, so gaps are visible rather than invented.
+    <span class="todo">a missing figure, inline</span>
+
+Both render in italics with a gold bar, so gaps are visible rather than invented,
+and the heading above one picks up a **pending** badge.
+
+For a note to other editors rather than a missing fact, such as a reminder to keep
+a list current, drop the `pending`:
+
+    <p class="todo">Keep this list short and current.</p>
 
 ## Adding a page
 
@@ -81,8 +88,7 @@ Put the file in `docs/assets/images/` and reference it:
 ```
 
 Resize photos to about 1600px wide before committing. GitHub Pages caps the whole
-site at 1 GB, and a few hundred phone photos at full resolution will get you there
-faster than you'd think.
+site at 1 GB.
 
 !!! warning "Ask before posting photos of people"
     Get consent before putting identifiable students on a public page, and take
@@ -90,7 +96,7 @@ faster than you'd think.
 
 ## Previewing locally (optional)
 
-Only worth it if you're making large changes.
+Useful for large changes.
 
 ```bash
 pip install -r requirements.txt
@@ -108,6 +114,5 @@ This site is public and indexed by search engines. Keep out:
 - Budget detail with names attached
 - Candid assessments of specific faculty or labs
 
-Those belong in the GSA's private Drive folder. The rule of thumb: if you'd
-hesitate to have a prospective student and the person's advisor both read it,
-it doesn't go here.
+Keep that material somewhere private instead. If you would hesitate to have a
+prospective student and the person's advisor both read it, keep it off this site.

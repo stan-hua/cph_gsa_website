@@ -13,3 +13,9 @@ venv/
 # program's document, and this site is public. Remove this line (and move the PDF
 # into docs/) if the program is happy for it to be published here.
 CPH Graduate Student Handbook.pdf
+
+# Berkeley's 2026-27 Signatory Training decks, used as source material for the
+# registration, funding, event and support pages. Same reasoning as the handbook
+# above: they belong to the LEAD Center rather than to us, and this repo is
+# public. The pages cite the training and link to the official page per topic.
+info/

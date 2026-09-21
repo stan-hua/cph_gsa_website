@@ -15,7 +15,7 @@ The organization owns the site. Everything else is downstream of this.
 
 - [ ] Add each incoming officer to the org: **Settings → People → Invite member**
 - [ ] Promote the incoming president, communications officer, and one other to
-      **Owner** — never fewer than three owners at any time
+      **Owner**, and never fewer than three owners at any time
 - [ ] Confirm each new owner has logged in and accepted
 - [ ] Only then, demote outgoing officers to Member, and remove those who have
       graduated
@@ -25,7 +25,7 @@ their email is unrecoverable without GitHub support.
 
 | | Current holder | Notes |
 |---|---|---|
-| Repo | `stan-hua/cph_gsa_website` | Personal account, not an org — see README step 1 |
+| Repo | `stan-hua/cph_gsa_website` | A personal account rather than an org. See README step 1 |
 | Owner 1 | | |
 | Owner 2 | | |
 | Owner 3 | | |
@@ -38,7 +38,7 @@ their email is unrecoverable without GitHub support.
 - [ ] Reset the OCF group account password and hand it to the incoming officers
 - [ ] Confirm the DNS CNAME still points at `stan-hua.github.io`
 - [ ] If using a purchased domain instead: transfer the registrar account, and
-      **check the renewal date and payment method** — an expired card is the most
+      **check the renewal date and payment method.** An expired card is the most
       common way a student org loses its domain
 
 | | Value |
@@ -50,12 +50,12 @@ their email is unrecoverable without GitHub support.
 
 ## 3. Shared accounts
 
-- [ ] Role email address (`gsa@...`) — change the password, update forwarding to
-      the incoming officers
-- [ ] Google Drive folder holding private material — transfer ownership of the
-      **shared drive** (not individual files) so it doesn't die with a personal
-      account
-- [ ] Slack workspace — promote incoming officers to admin, demote outgoing
+- [ ] Role email address (`gsa@...`): change the password, and update forwarding
+      to the incoming officers
+- [ ] Google Drive folder holding private material: transfer ownership of the
+      **shared drive** rather than individual files, so it survives a personal
+      account closing
+- [ ] Slack workspace: promote incoming officers to admin, demote outgoing
 - [ ] Any social media accounts
 - [ ] Mailing list ownership at both campuses
 
@@ -72,7 +72,28 @@ their email is unrecoverable without GitHub support.
 - [ ] Outstanding reimbursements settled or handed over with receipts
 - [ ] Budget for the coming year written down and shared with the new treasurer
 
-## 5. The site itself
+## 5. Berkeley student-org status
+
+These deadlines run on Berkeley's calendar rather than the GSA's election
+timetable, so start them early. Full detail on the site at
+[`docs/about/registration-and-signatories.md`](docs/about/registration-and-signatories.md).
+
+- [ ] **All signatory statuses are cleared on 30 June.** Every incoming signatory
+      completes the Signatory Training bCourse from scratch, lists the org's
+      CalLink ID, and then **individually accepts the position in CalLink**
+- [ ] Allow about a week between finishing the course and gaining working 25Live
+      access. Nobody can book a room or request money in that gap
+- [ ] **Financial agent status is separate and is also wiped every summer.** At
+      least two incoming officers redo the CalLink Finance Agent Training
+- [ ] Confirm the org's own CalLink registration is renewed for the new year
+- [ ] **Renew ASUC sponsorship.** It lapses every year, and the Senate accepts
+      applications only while it sits, roughly August to April
+- [ ] ABSA applications open in **February** and close in early March, so the
+      *outgoing* officers usually file for the incoming year's budget. See
+      [`docs/about/campus-funding.md`](docs/about/campus-funding.md)
+- [ ] Hand over who the OASIS advisor is, and introduce the incoming president
+
+## 6. The site itself
 
 - [ ] Update [`docs/about/officers.md`](docs/about/officers.md) with the new names
 - [ ] Update the "last reviewed" date on `docs/index.md`
@@ -80,8 +101,11 @@ their email is unrecoverable without GitHub support.
       finish, while you're both looking at it
 - [ ] Skim for stale content: rents on the housing page, links on the forms page,
       last year's events still listed as upcoming
+- [ ] Re-check the Berkeley dates and lead times on the registration, campus
+      funding and event pages against the current year's signatory training. They
+      change annually, and the pages say so
 
-## 6. Knowledge that isn't written down
+## 7. Knowledge that isn't written down
 
 Spend the last fifteen minutes on this. It's the part that's actually hard to
 replace.
